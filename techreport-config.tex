@@ -1,0 +1,60 @@
+% =========================================================
+% TECHREPORT CONFIG FILE
+% ONLY DOCUMENT-SPECIFIC DATA
+% =========================================================
+
+% =========================================================
+% TECHREPORT CONFIG (KEY-VALUE STYLE)
+% =========================================================
+
+\setreport{
+	student-name = Балакшин А.П.,
+	student-group = M3O-407-23,
+	discipline = ,
+	work-number = 1,
+	work-topic = ,
+	instructor-post = ,
+	instructor =
+}
+
+% =========================
+% siunitx configuration
+% =========================
+\sisetup{
+	exponent-product      = \cdot,
+	inter-unit-product    = \,,
+	output-decimal-marker = {,}
+}
+
+% =========================
+% Bibliography (optional override)
+% =========================
+% Default is already set in class
+% Uncomment if you want to explicitly rebind
+% \addbibresource{refs.bib}
+
+% =========================
+% minted overrides (optional)
+% =========================
+% Only if you want to change code appearance
+\setminted{
+	breaklines=true,
+	breakanywhere=true,
+	fontsize=\footnotesize
+}
+
+% =========================
+% TikZ project tweaks (optional)
+% =========================
+% \tikzset{
+%     every picture/.style={line width=0.4pt}
+% }
+
+% =========================
+% hyperref metadata (optional)
+% =========================
+% \hypersetup{
+%     pdftitle={\worktopic},
+%     pdfauthor={\studentname},
+%     pdfsubject={\discipline}
+% }
